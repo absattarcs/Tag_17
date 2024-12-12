@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/main.js" defer></script>
+    <title>Conditionals-Level-2_2</title>
+  </head>
+  <body>
+    <h1>Luftqualitätsindex (AQI) anzeigen</h1>
+    <input
+      type="range"
+      id="aqiSlider"
+      min="0"
+      max="150"
+      value="0"
+      oninput="checkAirQuality()"
+    />
+    <p id="result"></p>
+  </body>
+</html>

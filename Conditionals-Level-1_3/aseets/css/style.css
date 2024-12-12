@@ -1,0 +1,10 @@
+header {
+    border-bottom: 1px solid black;
+}
+
+header h2 {
+    color: rgb(61, 109, 230);
+}
+#ageForm {
+    margin-top: 10px;
+}
